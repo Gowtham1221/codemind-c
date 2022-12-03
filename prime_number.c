@@ -10,7 +10,7 @@ int main()
             c++;
         }
     }
-    if(count==2)
+    if(c==2)
         printf("prime");
     else
         printf("not a prime");
