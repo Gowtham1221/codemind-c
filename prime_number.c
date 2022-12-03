@@ -1,17 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int num, i, count=0;
-    scanf("%d", &num);
-    for(i=2; i<num; i++)
+    int n,i,c=0;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
-        if(num%i == 0)
+        if(n%i==0)
         {
-            count++;
-            break;
+            c++;
         }
     }
-    if(count==0)
+    if(count==2)
         printf("prime");
     else
         printf("not a prime");
